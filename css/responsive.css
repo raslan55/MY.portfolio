@@ -1,0 +1,263 @@
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --main-color: #3456ff;
+    --text-color: #070928;
+    ;
+}
+
+@media (min-width: 1200px) {}
+
+
+
+
+
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .navbar-light .navbar-brand {
+        color: #FFF;
+    }
+
+    .content {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .content h2,
+    h5 {
+
+        color: #FFF !important;
+
+    }
+
+    .content .btn {
+        border: 2px solid #ffff;
+    }
+
+    .content .btn a {
+        color: #ffff;
+    }
+
+    /* .baneer{
+        background:#2F83FD;
+    } */
+    .navbar-light .navbar-toggler {
+        color: #FFFF !important;
+        border: 2px solid #FFF;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .navbar-toggler-icon {
+        background: none !important;
+    }
+
+    .navbar-toggler-icon i {
+        font-size: 30px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .navbar-nav {
+        background-color: #FFF;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .navbar-nav .social-midea a {
+        color: #2F83FD !important;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #2F83FD;
+    }
+
+    .Services .single-service {
+
+        margin-top: 15px;
+    }
+
+}
+
+/* mobile media */
+@media(min-width:300px) and (max-width:767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .about-h {
+        padding-top: 20px;
+    }
+
+    footer {
+        text-align: center !important;
+    }
+
+    h2,
+    h3 h4 {
+        font-size: 20px !important;
+    }
+
+
+
+    .content {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .content h2,
+    h5 {
+
+        color: var(--main-color);
+
+    }
+
+    .content .btn {
+        border: 2px solid #ffff;
+    }
+
+    .content .btn a {
+        color: #ffff;
+    }
+
+    /* .baneer {
+        background: #2F83FD;
+    } */
+
+    .navbar-light .navbar-toggler {
+        color: var(--main-color) !important;
+        border: 0;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .navbar-toggler-icon {
+        background: none !important;
+    }
+
+    .navbar-toggler-icon i {
+        font-size: 30px;
+        box-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+
+
+    }
+
+    .sticky .navbar-toggler-icon i {
+        color: #2F83FD !important;
+
+
+    }
+
+    .navbar-nav {
+        background-color: #FFF;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .navbar-nav .social-midea a {
+        color: #2F83FD !important;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #2F83FD;
+    }
+
+    .Services .single-service {
+
+        margin-top: 15px;
+    }
+
+    .Services .single-service {
+        padding: 15px 15px;
+
+    }
+
+    .about {
+        text-align: left;
+        padding-top: 0px !important;
+    }
+
+    .about h2 {
+        margin-top: 15px;
+    }
+
+    .about ul {
+        padding-left: 10%;
+
+
+
+    }
+
+    .item-overlay .item-text {
+
+        padding: 20px;
+    }
+
+    .item-overlay {
+        width: 60%;
+        max-height: 241px;
+        position: absolute;
+        bottom: 0px;
+        left: 9%;
+        text-align: center;
+        line-height: 6;
+        top: 17%;
+        right: 4px;
+        background: rgb(52 86 255 / 56%);
+        -webkit-transition: .5s;
+        transition: .5s;
+        opacity: 0;
+        box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    }
+
+    .Portfolio img {
+        height: 350px !important;
+        width: 445px !important;
+        padding: 15px;
+        box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    .contact-info {
+        padding: 10px;
+    }
+
+    .contact-info span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+
+
+
+    lottie-player {
+        width: 340px !important;
+    }
+
+    .social-midea {
+        display: none;
+    }
+
+
+
+
+}
